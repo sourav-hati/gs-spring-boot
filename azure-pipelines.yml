@@ -1,5 +1,5 @@
 # Maven package Java project Web App to Linux on Azure
-- task: Maven@4
+- task: Maven
   inputs:
     mavenPomFile: 'pom.xml'
     publishJUnitResults: true
